@@ -1,0 +1,32 @@
+.firstClass{
+	color:red;
+}
+
+.secondClass{
+	color:blue;
+}
+
+#singledout{
+	color:green;
+}
+
+/* this selects all ul tags which are (after) next to h3 tags */
+h3 + ul {
+	border: 4px dotted purple;
+}
+
+
+/* this selects all tags which are anchor tags and are directly within a list item tag */
+li a{
+	color: orange;
+}
+
+
+/* select an ancor tag directly within a list item tag, but also having an href attribute that equals the given */
+li a[href="www.facebook.com"]{
+	color:gold;
+	border: 5px solid cyan;
+}
+
+
+/* these are all examples of the different kinds of selectors */
