@@ -1,0 +1,21 @@
+/*selected_tag{
+	property: value;
+}*/
+
+
+h1{
+	color: blue;
+}
+
+li{
+	color: rgb(44, 150, 60);
+}
+
+
+p{
+	color: #aa73ba;
+}
+
+h2{
+	color: rgba(44,44,44, 0.2); /* the 'a' stands for alpha or the transparancy */
+}
