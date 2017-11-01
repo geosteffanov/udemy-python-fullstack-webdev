@@ -21,4 +21,5 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 	- properties and values
 	- selectors for divs, spans, ids and other
 	- specificity glossed over
+	- assessment
 
