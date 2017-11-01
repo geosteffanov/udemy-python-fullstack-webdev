@@ -1,0 +1,28 @@
+/*selected_tag{
+	property: value;
+}*/
+body{
+	background-color: gray; /* but instead of using background-color: we can use background: */
+	background-image: url("http://cdn.pcwallart.com/images/beach-tumblr-wallpaper-4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+div{
+	background-color: lightyellow; /* but instead of using background-color: we can use background: */
+	border-color: blue;
+	border-width: 5px;
+	border-style: double
+}
+
+p{
+	color: red;
+}
+
+
+span{
+	background-color: red;
+	color: black;
+}
