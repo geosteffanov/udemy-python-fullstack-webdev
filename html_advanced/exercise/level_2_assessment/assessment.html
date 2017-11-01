@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Assessment Test HTML LEVEL 2</title>
+</head>
+<body>
+	<h1>Course Sign Up Page</h1>
+	<p>Please Note: First Name, Last Name, Password, and Email are required.</p>
+
+	<form action="thanks.html" method="get">
+
+		<p>
+		<label for="firstname">First Name:</label>
+		<input id="firstname" type="text" placeholder="First Name" required>
+
+		<label for="lastname">Last Name: </label>
+		<input id="lastname" type="text" placeholder="Last Name" required>
+		</p>
+
+
+		<p>
+		<label for="email">Email:</label>
+		<input id="email" type="email" placeholder="name@email.com" required>
+		<label for="password">Password:</label>
+		<input id="password" type="password"required>
+		</p>
+
+		<p>Are you over the age of 18?</p>
+		<label for="yesbutton">Yes:</label>
+		<input id="yesbutton" type="radio" name="age" value="Over18">
+
+		<label for="nobutton">No:</label>
+		<input id="nobutton" type="radio" name="age" value="Under18">
+
+
+
+		<p>Do you have a Credit Card or PayPal?</p>
+		<select name="payment">
+			<option value="cc">Credit Card</option>
+			<option value="pp">PayPal</option>
+		</select>	
+
+
+		<p><input type="Submit" value="Submit Feedback"></p>
+
+
+
+	</form>
+
+</body>
+
+
+</html>
