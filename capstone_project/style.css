@@ -1,0 +1,48 @@
+body{
+	text-align: center;
+	border-left: 40px solid #4ECDC4;
+	border-right: 40px solid #4ECDC4;
+	border-bottom: 40px solid #4ECDC4;
+	border-top: 0px solid white;
+
+	color: white;
+
+
+	padding: 20px;
+	font-size: 20px;
+
+	font-family: 'Indie Flower', cursive;
+	background-color: #1A535C;
+}
+
+input[type="submit"]{
+	margin-top: 15px;	
+	background-color: orange;
+	border-radius: 25px;
+	height: 3em;
+	font-size: 1.25em;
+	padding: 0.75em;
+}
+input{
+	width: 25%;
+	height: 2em;
+}
+
+p{
+	padding-top: 30px;
+}
+.block{
+	padding-top: 0.5em;
+}
+
+
+#signupbutton{
+	width: auto;
+}
+label{
+	padding-bottom: 1px;
+}
+
+span{
+	border-bottom: 1px;
+}

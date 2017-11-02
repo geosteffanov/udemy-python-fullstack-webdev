@@ -3,13 +3,13 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 
 
 # A List of All Topics Covered For Now
-1. HTML Level One - finished
+1. HTML Level One
 	- basic tagging
 	- lists
 	- divs and spans
 	- attributes
 	- assessment
-2. HTML Level Two - finished
+2. HTML Level Two
 	- tables
 	- forms basics
 	- forms and labels
@@ -29,5 +29,7 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 	- [Google Fonts](fonts.google.com)
 	- [Font Library](https://fontlibrary.org/)
 	- box model: content, padding, border and margin
-	- finished assessment or project exercise 
+	- finished assessment or project exercise
+5. Capstone Project
+	- there's an issue
 
