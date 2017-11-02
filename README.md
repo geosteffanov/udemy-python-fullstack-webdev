@@ -23,3 +23,9 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 	- specificity glossed over
 	- assessment
 
+4. CSS Level Two
+	- fonts
+	- downloading and referencing fonts
+	- [Google Fonts](fonts.google.com)
+	- [Font Library](https://fontlibrary.org/)
+
