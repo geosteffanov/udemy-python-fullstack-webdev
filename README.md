@@ -33,3 +33,4 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 5. Capstone Project
 	- there's an issue
 
+6. Bootstrap
