@@ -36,4 +36,6 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 	- part one - a basic introduction to bootstrap
 	- forms
 	- navbars
+	- grids
+	
 	
