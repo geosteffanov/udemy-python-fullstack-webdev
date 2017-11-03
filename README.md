@@ -37,5 +37,5 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 	- forms
 	- navbars
 	- grids
-	
+	- project
 	
