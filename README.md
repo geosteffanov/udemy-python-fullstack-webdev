@@ -31,6 +31,7 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 	- box model: content, padding, border and margin
 	- finished assessment or project exercise
 5. Capstone Project
-	- there's an issue
 
 6. Bootstrap
+	- part one - a basic introduction to bootstrap
+	- forms
