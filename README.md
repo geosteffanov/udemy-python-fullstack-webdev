@@ -38,4 +38,10 @@ A repo following through the Udemy course on Fullstack WebDev with Python and Dj
 	- navbars
 	- grids
 	- project
+
+7.Javascript Level One
+8 Javascript Level Two
+9 DOM Overview
+	- project Tic Tac Toe
+
 	
