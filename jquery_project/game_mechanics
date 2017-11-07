@@ -1,0 +1,22 @@
+The game begins:
+
+Players One and Two input their names.
+
+Game starts:
+
+1. A player clicks on a table cell. 
+2. The game checks the cells column.
+3. It checks if the column is full:
+	- the column is not full (See 4.1)
+	- the column is full (See 4.2)
+4.1 The column clicked is not full. The game finds the lowest possible
+    cell in the column, that is not colored (is white). It colors it in the
+    color of the player. Go to 5.
+4.2 The column clicked is full. The game continues with the next player being
+    the same player.
+5. A new cell has just been coloured. The game checks if the cell forms a 
+   horizontal or vertical sequence of four cells having the same colors. If not
+   go to 6.1. If yes go to 6.2.
+
+6.1 Game continues. Next player switches.
+6.2 Game over. The last player placing the cell is the winner.
