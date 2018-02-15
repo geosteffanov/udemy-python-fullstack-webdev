@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Welcome to my first Django App! </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/mystyle.css' %}">
+</head>
+<body>
+<h1> Hello world! I am a hot static website: here's a pic of me! </h1>
+<img src="{% static 'images/somelikeithot.jpg' %}" alt="Image not found!">
+
+{{ insert_me }}
+
+</body>
+</html>

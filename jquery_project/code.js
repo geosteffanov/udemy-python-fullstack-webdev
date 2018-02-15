@@ -15,12 +15,21 @@ function createTable() {
 	}
 }
 
+
+
 function changeColor(id, color) {
 	$('#' + id).css("background-color", color);
 }
 
-var currentColor = "blue";
+var current_player_index = 0;
+var colors = ["blue", "red"];
 
+function toggleCurrentPlayerAndColor(){
+	current_player_index += 1;
+	current_player_index = current_player_index % 2;
+	currentColor = colors[current_player_index];
+	currentPlayer = players[current_player_index];
+}
 
 function cellClick(event) {
 	var cell_id = event.target.id;
@@ -39,8 +48,6 @@ function cellClick(event) {
 		cell_in_column = $(('#cell_' +  last_coloured) + cell_col);
 	}
 
-	// console.log(last_coloured);
-
 	if (last_coloured == -1) {
 		console.log("FULL");
 		return false;
@@ -49,29 +56,15 @@ function cellClick(event) {
 	$(('#cell_' + last_coloured) + cell_col).css("background-color", currentColor);
 
 	endGame = checkEndgame(last_coloured, cell_col);
-
-
-	if(currentColor == "red"){
-		currentColor = "blue";
-	}
-	else {
-		currentColor = "red";
-	}
-
 	
-
 	if (endGame){
 		// alert("Game ended!");
 		$('#prompt_player').html("Player " + currentPlayer + ", contratulations! You won!");
 		// alert("Start a new game?");
-		// startGame();
+		startGame();
 	}
 
-	if (currentColor == "red") {
-		currentPlayer = player_two_id;
-	} else {
-		currentPlayer = player_one_id;
-	}
+	toggleCurrentPlayerAndColor();
 	$('#prompt_player').html("Player " + currentPlayer + ", it's your turn!");
 }
 

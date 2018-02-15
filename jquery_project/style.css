@@ -2,4 +2,20 @@ td {
 	border: 5px solid black;
 	width: 100px;
 	height: 100px;
+	border-radius: 50px/50px;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+table {
+	border-collapse: separate;
+}
+
+.circle {
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 21px #f00;
+  width: 50px;
+  height: 50px;
 }
